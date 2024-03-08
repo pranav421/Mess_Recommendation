@@ -1,0 +1,16 @@
+user_id,mess_name,rating,tags,location,reviews,owner_name,owner_number
+1,Mess1,4.5,chinese;indian,Location1,"Great food, friendly staff",John Doe,1234567890
+2,Mess2,3.8,continental;chinese,Location2,"Decent food, slow service",Jane Smith,9876543210
+3,Mess3,4.0,italian;continental,Location3,"Amazing food, cozy ambience",Alice Johnson,5678901234
+4,Mess4,4.2,indian;italian,Location4,"Delicious pasta, good desserts",Bob Brown,6789012345
+5,Mess5,3.7,chinese;indian,Location5,"Spicy dishes, average service",Chris Wilson,7890123456
+6,Mess6,4.6,continental;chinese,Location1,"Best dumplings in town",Emma Davis,8901234567
+7,Mess7,4.1,italian;continental,Location2,"Variety of cuisines, reasonable prices",Michael Taylor,9012345678
+8,Mess8,3.9,indian;chinese,Location3,"Tasty pizza, but small portions",Sarah Clark,1234509876
+9,Mess9,4.3,chinese;indian,Location4,"Authentic flavors, quick service",Ryan Lee,2345678901
+10,Mess10,4.4,continental;chinese,Location5,"Fresh ingredients, fast delivery",Laura Martinez,3456789012
+11,Mess11,3.6,italian;continental,Location1,"Decent food, mediocre service",David Johnson,4567890123
+12,Mess12,4.7,indian;italian,Location2,"Best pasta ever!",Emily White,5678901234
+13,Mess13,4.0,indian;chinese,Location3,"Consistently good food",James Anderson,6789012345
+14,Mess14,3.5,continental;chinese,Location4,"Disappointing experience",Jessica Brown,7890123456
+15,Mess15,4.2,italian;continental,Location5,"Great ambience, slow service",Kevin Smith,8901234567;

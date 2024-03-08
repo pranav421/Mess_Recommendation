@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Mess</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Recommended Mess</h1>
+    <ul>
+        {% for recommendation in recommendations %}
+            <li>
+                <h2>{{ recommendation.mess_name }}</h2>
+                <p>Rating: {{ recommendation.rating }}</p>
+                <p>Tags: {{ recommendation.tags }}</p>
+                <p>Reviews: {{ recommendation.reviews }}</p>
+                <p>Owner: {{ recommendation.owner_name }}</p>
+                <p>Contact: {{ recommendation.owner_number }}</p>
+                <a href="/mess_details/{{ recommendation.mess_name }}">See Details</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

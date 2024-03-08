@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Mess Details</h1>
+    <div id="mess-details">
+        <h2>{{ mess_details.mess_name }}</h2>
+        <p>Rating: {{ mess_details.rating }}</p>
+        <p>Tags: {{ mess_details.tags }}</p>
+        <p>Reviews: {{ mess_details.reviews }}</p>
+        <p>Owner: {{ mess_details.owner_name }} - {{ mess_details.owner_number }}</p>
+        <p>Location: {{ mess_details.location }}</p>
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>

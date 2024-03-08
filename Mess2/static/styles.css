@@ -1,0 +1,19 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#filter-options {
+    margin-bottom: 20px;
+}
+
+.recommendation {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#mess-details {
+    margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to Mess Recommendation System</h1>
+    <h2>Filter Options</h2>
+    <form action="/recommendations" method="post">
+        <label for="sort_by">Sort by:</label>
+        <select id="sort_by" name="sort_by">
+            <option value="ascending">Rating (Ascending)</option>
+            <option value="descending">Rating (Descending)</option>
+        </select>
+        <div class="tags">
+            <h3>Tags:</h3>
+            <label><input type="checkbox" name="tags" value="indian"> Indian</label>
+            <label><input type="checkbox" name="tags" value="chinese"> Chinese</label>
+            <label><input type="checkbox" name="tags" value="continental"> Continental</label>
+            <label><input type="checkbox" name="tags" value="italian"> Italian</label>
+        </div>
+        <button type="submit">Filter</button>
+    </form>
+</body>
+</html>
